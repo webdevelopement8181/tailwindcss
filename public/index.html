@@ -5,9 +5,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="text-gray-500" >
+<body class="text-gray-500  font-body" >
   
-    <p class="tex-color-blue-400 hover:text-blue-600">The quick brown fox...</p>
+    <p class="text-color-blue-400 hover:text-blue-600 text-mammoth ">The quick brown fox...</p>
     <h1 class="text-3xl font-bold underline hover:text-blue-600">
         Hello world!
       </h1>
@@ -20,6 +20,7 @@
                         <a href="/">food Ninjaa</a>
                     </h1>
                     <div class="border-8 border-indigo-600 ...">border</div>
+                    <div class="lg:w-48">sample div</div>
                 </div>
                 <ul>
                     <li>
@@ -40,37 +41,75 @@
                 </ul>
             </nav>
         </div><!--end nav-->
-        <main>
-         <div>
-            <a href="#">Log in</a>
-            <a href="#">sign in</a>
+        <main class="px-16 py-6 bg-gray-100">
+         <div class="flex justify-center  sm:justify-end">
+         
+            <a href="#" class="text-primary">Log in</a>
+            <a href="#" class="text-primary ml-2 ">sign in</a>
          </div>  
+         <!-- <div class="flex items-end">
+            <div class="bg-red-500 h-4 w-6"></div>
+            <div class="bg-blue-500 h-8 w-6"></div>
+            <div class="bg-green-500 h-12 w-6"></div>
+            <div class=""></div>
+         </div> -->
          <header>
-            <h2 class="font-bold">recepies</h2>
-            <h3>for Ninjas</h3>
+            <h2 class="text-gray-700 text-6xl font-semibold">recipies</h2>
+            <h3 class="text-2xl font-semibold  mt-2.5">for Ninjas</h3>
          </header> 
          <div>
-            <h4 >latest recepies</h4>
-            <div>
+            <h4 class="font-bold mt-12 pb-2 border-b border-gray-400 ">latest recepies</h4>
+            <div class="mt-8 ">
                 <!--cards goes here-->
-            </div>
-            <div>
-                <img src="img/chickensalad.jpg" alt="" width="200px">
-                <div>
-                    <span> 5 Bean Chilli Stew</span>
-                    <span>Recipe by Mario</span>
+            <div class="card">
+                <img src="img/chickensalad.jpg" alt="" width="400px w-full" class="w-full h-32 sm-42 object-cover ">
+                <div class="m-4"> 
+                    <span class="font-bold">chickenSalad </span>
+                    <span class="block text-gray-500 text-sm">Recipe by Mario</span>
                 </div>
+            
+            <div class="badge ">
+                <span>25 mins</span>
             </div>
-            <h4>most popular</h4>
+        </div>
+        <div class="card">
+            <img src="img/curry.jpg" alt="curry" width="400px w-full" class="w-full h-32 sm-42 object-cover ">
+            <div class="m-4"> 
+                <span class="font-bold">curry </span>
+                <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+            </div>
+        
+        <div class="badge ">
+            <span>25 mins</span>
+        </div>
+    </div>
+    <div class="card">
+        <img src="img/noodle_PNG15.png" alt="noodles" width="400px w-full" class="w-full h-32 sm-42 object-cover ">
+        <div class="m-4"> 
+            <span class="font-bold">vegNoodles </span>
+            <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+        </div>
+    
+    <div class="badge ">
+        <span>25 mins</span>
+    </div>
+</div>
+        </div> 
+
             <div>
+                
+
+            </div>
+            <h4 class="font-bold mt-12 pb-2 border-b border-gray-200 ml-3">Most Popular</h4>
+            <div >
                 <!--cards go here--> 
             </div>
             <div>
-                <div>
+                <div class=" flex justify-center mt-4 ">
                     Load more
                 </div>
             </div>
-         </div>
+         <!-- </div> -->
         </main>
     </div>
 </body>
