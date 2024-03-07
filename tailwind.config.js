@@ -10,6 +10,14 @@ colors:{
     200:'#888883',
   }
 },
+// backgroundColor: {
+//   'custom-bg': '#A9907E', // Add your custom color here
+// },
+backgroundImage: {
+  'nav-image': "url('./img/bg.png')",
+  'products-image': "url('./img/back.jpg')"
+},
+
     fontFamily:{
       body:['Nunito','Barlow']
 
@@ -17,5 +25,9 @@ colors:{
     },
   },
   plugins: [],
+  safelist: [
+    'bg-nav-image',
+    'bg-products-image'
+  ],
 }
 

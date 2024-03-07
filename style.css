@@ -14,7 +14,7 @@
     @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
 }
 .body-content{
-   @apply text-gray-500  font-body
+   @apply text-gray-500  font-body w-auto 
 }
 .nav-parent{
     @apply md:grid grid-cols-3 
@@ -25,9 +25,10 @@
 /* fix this and add rtl */
 /* fix the names of classes */
 /* use nested classes */
-.nav-bar{
-    @apply rtl:ml-0 
-}
+/* .nav-bar {
+    @apply fixed top-0 right-0 z-50 flex justify-between items-center transform translate-x-full transition-transform duration-500 ease-linear bg-var(--bg-color);
+} */
+
 .site-title{
     @apply flex justify-between items-center bg-slate-400
 }
@@ -108,4 +109,10 @@
 }
 .margin-four{
     @apply m-4
+}
+.bgcustom{
+    background-image: url("./img/background-coffee.jpg");
+}
+.custom-color{
+     @apply bg-[#A9907E]
 }

@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "build-css": "tailwindcss build style.css -o output.css"
+    "build-css": "tailwindcss build style.css -o output.css",
+    "watch-css": "tailwindcss build -i style.css -o output.css --watch",
+    "dev": "concurrently \"npm run watch-css\" \"npm start\""
   },
   "dependencies": {
     "tailwindcss": "^3.4.0"
