@@ -1,0 +1,21 @@
+.my-class{
+    background-color: aquamarine;
+}
+@font-face {
+    font-family: vazir;
+    src: url("fonts/Vazir-Regular.woff") format("woff");
+}
+.body-content{
+font-family: vazir;
+overflow-x: hidden;
+width: auto;
+}
+.header-h2 {
+    opacity: 0.8; 
+    animation: fadeIn 5s; 
+}
+
+.header-h2:hover {
+    opacity: 1; 
+}
+

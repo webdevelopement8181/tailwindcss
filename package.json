@@ -5,6 +5,11 @@
     "dev": "concurrently \"npm run watch-css\" \"npm start\""
   },
   "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "animate.css": "^4.1.1",
     "tailwindcss": "^3.4.0"
+  },
+  "devDependencies": {
+    "postcss-import": "^16.0.1"
   }
 }

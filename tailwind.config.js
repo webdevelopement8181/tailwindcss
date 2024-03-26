@@ -15,7 +15,10 @@ colors:{
 // },
 backgroundImage: {
   'nav-image': "url('./img/bg.png')",
-  'products-image': "url('./img/back.jpg')"
+  'products-image': "url('./img/iconBack.jpg')",
+  'about-background-device-mobile':"url('./img/bean.jpg')",
+  'about-background-device-md':"url('./img/new.jpg')"
+
 },
 
     fontFamily:{
@@ -24,7 +27,7 @@ backgroundImage: {
     }
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/line-clamp'),],
   safelist: [
     'bg-nav-image',
     'bg-products-image'
