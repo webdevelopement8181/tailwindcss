@@ -10,6 +10,10 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
 <body class="body-content"  >
    
@@ -27,6 +31,7 @@
                           </button>
                     </div>
                     <div>
+                   
                 <img src="img/main.png" alt="Logo"  class="object-contain  h-4/5 float-right clear-start  md:w-800" >
             </div>
             </div>
@@ -56,7 +61,7 @@
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-[#3E3232] ">کافه آنلاین</span>
     </a>
     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-        <button type="button" class=" text-white  bg-[#A9907E] hover:bg-[#5e544a] focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-4 py-2 text-center ">ایحاد حساب کاربری</button>
+        <button  class="button">ایحاد حساب کاربری</button>
         <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
           <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -94,22 +99,32 @@
          </header> 
          <div>
             <h4 dir="rtl" class="header-h4">اخرین بروز رسانی</h4>
-            <div class="flex-content h-[68%]" >  
+            <div class="nav-parent" >  
         
                 <!--cards goes here-->
-                
+                <!-- first card started -->
+          
+             
+
+
             <div class="recipe-card">
                 <img src="img/latte-coffee.jpg" alt="" width="400px w-full" class="recipe-image">
-                <div dir="rtl" class="margin-four"> 
-                  <span dir="rtl" class="font-bold">لاته</span>
+                <div dir="rtl" style="margin: 16px;"> 
+                  <span dir="rtl" style="font-weight: bold; cursor: pointer;">لاته</span>
                     <span class="recipe-info">75,000 تومان</span>
-                    <div dir="ltr" class="-mt-11 ">
+                    <div dir="ltr" class="buy-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                   </svg>
                 </div>
               </div>
-            
+              <p  dir="rtl" class="product-info">لاته، یکی از محبوب‌ترین نوشیدنی‌های قهوه است که از ترکیب اسپرسو و شیر گرم ساخته می‌شود، با ارائه‌ی ترکیبی از طعم‌های ملایم قهوه و کرمی شیر.
+
+                این نوشیدنی به دلیل طراوت و شیرینی طعمی که از شیر گرم و کرمی تولید می‌شود، مورد توجه قرار گرفته و به عنوان یک گزینه محبوب در فهرست قهوه‌های داغ قهوه‌خانه‌ها حضور دارد.
+                
+                لاته با لایه‌ی نرم کرما که روی سطح قهوه تشکیل می‌شود، زیبایی ظاهری خاصی به نوشیدنی اضافه می‌کند و تجربه‌ی زیبا و لذت‌بخشی را برای عاشقان قهوه فراهم می‌کند.</p>
+        <button class="info-button">توضیحات بیشتر</button>
+    
             <div class="badge ">
                 <svg class="time-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-size">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -117,17 +132,25 @@
                 <span dir="rtl">25 دقیقه</span>
             </div>
         </div>
+ 
+        <!-- first card ended -->
+        <!-- second card started -->
         <div class="recipe-card">
            <img src="img/makiato.jpg"alt="caramel makiato" width="400px w-full" class="recipe-image ">
-           <div dir="rtl" class="margin-four"> 
-            <span dir="rtl" class="font-bold">کارامل ماکیاتو</span>
+           <div dir="rtl" class="info-container"> 
+            <span dir="rtl" style="font-weight: bold; cursor: pointer;">کارامل ماکیاتو</span>
               <span class="recipe-info">80,000 تومان</span>
-              <div dir="ltr" class="-mt-11 ">
+              <div dir="ltr" class="buy-icon">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
             </svg>
           </div>
         </div>
+        <p  dir="rtl" class="product-info">با ترکیب مناسب اسپرسو و شیر گرم، ماکیاتو کارامل عطر و طعم قهوه تلخ را با شیرینی دلپذیر کارامل ترکیب می‌کند، ایجاد کننده‌ی یک تجربه‌ی غنی و خاص برای دوستداران قهوه.
+
+          ماکیاتو کارامل با لایه‌ی لطیف کرما و طعم شیرین کارامل روی قهوه، یک نوشیدنی زیبا و مطمئناً شیرین‌تر از ماکیاتو معمولی فراهم می‌کند</p>
+  <button class="info-button">توضیحات بیشتر</button>
+
         <div class="badge ">
             <svg class="time-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-size">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -137,18 +160,26 @@
         </div>
         
     </div>
+    <!-- second card ended -->
+    <!-- third card started -->
     <div class="recipe-card">
         <img src="img/essperso.jpg" alt="noodles" class="recipe-image ">
-        <div dir="rtl" class="margin-four"> 
-            <span dir="rtl" class="font-bold">اسپرسو</span>
+ 
+            <div dir="rtl" style="margin: 16px;"> 
+                <span dir="rtl" style="font-weight: bold; cursor: pointer;">اسپرسو</span>
               <span class="recipe-info">50,000 تومان</span>
-              <div dir="ltr" class="-mt-11 ">
+              <div dir="ltr" class="buy-icon ">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
             </svg>
           </div>
+         
         </div>
-    
+       
+        <p  dir="rtl" class="product-info">قهوه اسپرسو، نوشیدنی سنتی با طعم غنی و غلیظ است که از طریق اعمال فشار بالا و آب گرم به دانه‌های قهوه خرد شده تولید می‌شود و باعث ایجاد یک محیطی برای لذت بردن از طعم و بوی بی‌نظیر می‌شود.
+            اسپرسو با ویژگی‌های تلخی و شیرینی متعادل، پایه‌ای برای بسیاری از نوشیدنی‌های محبوب قهوه مانند لاته، کاپوچینو و ماکیاتو فراهم می‌کند و نشانگر انعطاف‌پذیری آن در فرهنگ قهوه است.'</p>
+    <a href="newpage.html"><button class="info-button">توضیحات بیشتر</button></a>
+
     <div class="badge ">
         <svg class="time-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-size">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -158,24 +189,24 @@
     </div>
 </div>
 
-
+<!-- third card ended -->
         </div> 
 
             <!-- <h4 class="description">Most Popular</h4> -->
             <div >
-                <!--cards go here--> 
+              
             </div>
             <div class="load-more-container ">
-                <div class="load-more-btn">
+                <!-- <div class="load-more-btn">
                     Load more
-                </div>
+                </div> -->
 
 
             </div>
          <!-- </div> -->
         </main>
     </div>
-    <div class="relative -mt-[5%] md:mt-0 md:w-full md:h-[30%] ">
+    <div class="relative mt-0 md:mt-0 md:w-full md:h-[40%] ">
       <!-- Mobile Image -->
       <div class="absolute inset-0 bg-fixed  md:w-full   opacity-40 bg-cover bg-about-background-device-mobile   h-full md:h-[90%] md:bg-about-background-device-md "></div>
       <!-- Desktop Image -->
@@ -184,267 +215,142 @@
         <h2 dir="rtl" class="animate__animated animate__fadeInUp mt-8 mr-6 md:mr-3"> ما چیزی بیش از یک کافه هستیم  ما پناهگاهی دنج هستیم که در آن هر فنجان داستانی را بیان می کند. ازدانه های قهوه ای  که با دقت تهیه می‌شوند تا شیرینی‌های لذیذمان، ما وقف ایجاد تجربیات به یاد ماندنی برای مشتریان خود هستیم وارد شوید و به ما اجازه دهید شما را در سفری با طعم و عطر و طعم همراه کنیم. به خانه خوش آمدید </h2>
       </div>
     </div>
-    <p class="line-clamp-2">
-      Here's a block of text from a blog post that isn't conveniently three lines long like you designed
-      for originally. It's probably like 6 lines on mobile or even on desktop depending on how you have
-      things laid out. Truly a big pain in the derriere, and not the sort of thing you expected to be
-      wasting your time trying to deal with at 4:45pm on a Friday am I right? You've got tickets to
-      SmackDown and you heard there's gonna be a dark match with that local guy from two towns over that
-      your cousin went to high school with before the show starts, and you're gonna miss it if you're
-      not there early.
-    </p>
-    <a href="newpage.html" class="button">Go to New Page</a>
-    <div class="bg-gray-100 dark:bg-gray-800 py-8">
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="flex flex-col md:flex-row -mx-4">
-              <div class="md:flex-1 px-4">
-                  <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
-                      <img class="w-full h-full object-cover" src="https://cdn.pixabay.com/photo/2020/05/22/17/53/mockup-5206355_960_720.jpg" alt="Product Image">
-                  </div>
-                  <div class="flex -mx-2 mb-4">
-                      <div class="w-1/2 px-2">
-                          <button class="w-full bg-gray-900 dark:bg-gray-600 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800 dark:hover:bg-gray-700">Add to Cart</button>
-                      </div>
-                      <div class="w-1/2 px-2">
-                          <button class="w-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white py-2 px-4 rounded-full font-bold hover:bg-gray-300 dark:hover:bg-gray-600">Add to Wishlist</button>
-                      </div>
-                  </div>
-              </div>
-              <div class="md:flex-1 px-4">
-                  <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-2">Product Name</h2>
-                  <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-                      ante justo. Integer euismod libero id mauris malesuada tincidunt.
-                  </p>
-                  <div class="flex mb-4">
-                      <div class="mr-4">
-                          <span class="font-bold text-gray-700 dark:text-gray-300">Price:</span>
-                          <span class="text-gray-600 dark:text-gray-300">$29.99</span>
-                      </div>
-                      <div>
-                          <span class="font-bold text-gray-700 dark:text-gray-300">Availability:</span>
-                          <span class="text-gray-600 dark:text-gray-300">In Stock</span>
-                      </div>
-                  </div>
-                  <div class="mb-4">
-                      <span class="font-bold text-gray-700 dark:text-gray-300">Select Color:</span>
-                      <div class="flex items-center mt-2">
-                          <button class="w-6 h-6 rounded-full bg-gray-800 dark:bg-gray-200 mr-2"></button>
-                          <button class="w-6 h-6 rounded-full bg-red-500 dark:bg-red-700 mr-2"></button>
-                          <button class="w-6 h-6 rounded-full bg-blue-500 dark:bg-blue-700 mr-2"></button>
-                          <button class="w-6 h-6 rounded-full bg-yellow-500 dark:bg-yellow-700 mr-2"></button>
-                      </div>
-                  </div>
-                  <div class="mb-4">
-                      <span class="font-bold text-gray-700 dark:text-gray-300">Select Size:</span>
-                      <div class="flex items-center mt-2">
-                          <button class="bg-gray-300 dark:bg-gray-700 text-gray-700 dark:text-white py-2 px-4 rounded-full font-bold mr-2 hover:bg-gray-400 dark:hover:bg-gray-600">S</button>
-                          <button class="bg-gray-300 dark:bg-gray-700 text-gray-700 dark:text-white py-2 px-4 rounded-full font-bold mr-2 hover:bg-gray-400 dark:hover:bg-gray-600">M</button>
-                          <button class="bg-gray-300 dark:bg-gray-700 text-gray-700 dark:text-white py-2 px-4 rounded-full font-bold mr-2 hover:bg-gray-400 dark:hover:bg-gray-600">L</button>
-                          <button class="bg-gray-300 dark:bg-gray-700 text-gray-700 dark:text-white py-2 px-4 rounded-full font-bold mr-2 hover:bg-gray-400 dark:hover:bg-gray-600">XL</button>
-                          <button class="bg-gray-300 dark:bg-gray-700 text-gray-700 dark:text-white py-2 px-4 rounded-full font-bold mr-2 hover:bg-gray-400 dark:hover:bg-gray-600">XXL</button>
-                      </div>
-                  </div>
-                  <div>
-                      <span class="font-bold text-gray-700 dark:text-gray-300">Product Description:</span>
-                      <p class="text-gray-600 dark:text-gray-300 text-sm mt-2">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                          sed ante justo. Integer euismod libero id mauris malesuada tincidunt. Vivamus commodo nulla ut
-                          lorem rhoncus aliquet. Duis dapibus augue vel ipsum pretium, et venenatis sem blandit. Quisque
-                          ut erat vitae nisi ultrices placerat non eget velit. Integer ornare mi sed ipsum lacinia, non
-                          sagittis mauris blandit. Morbi fermentum libero vel nisl suscipit, nec tincidunt mi consectetur.
-                      </p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  ////////////////////////////////////////////////////////////////
+   
+   
+   
+
   <!-- source: https://github.com/mfg888/Responsive-Tailwind-CSS-Grid/blob/main/index.html -->
 
-<div class="text-center p-10">
-  <h1 class="font-bold text-4xl mb-4">Responsive Product card grid</h1>
-  <h1 class="text-3xl">Tailwind CSS</h1>
-</div>
+<!--  -->
+<!-- Slider main container -->
+<!-- <div class="swiper">
+  
+    <!-- <div class="swiper-wrapper">
+     
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+   
+    <div class="swiper-pagination"></div>
+  
 
-<!-- ✅ Grid Section - Starts Here 👇 -->
-<section id="Projects"
-  class="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
-
-  <!--   ✅ Product card 1 - Starts Here 👇 -->
-  <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-      <a href="#">
-          <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                  alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
-          <div class="px-4 py-3 w-72">
-              <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-              <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-              <div class="flex items-center">
-                  <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
-                  <del>
-                      <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
-                  </del>
-                  <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                          fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd"
-                              d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                          <path
-                              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                      </svg></div>
-              </div>
-          </div>
-      </a>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+ 
+    <div class="swiper-scrollbar"></div>
   </div>
-  <!--   🛑 Product card 1 - Ends Here  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+ 
+ 
+  loop: true,
 
-  <!--   ✅ Product card 2 - Starts Here 👇 -->
-  <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-      <a href="#">
-          <img src="https://images.unsplash.com/photo-1651950519238-15835722f8bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mjh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                  alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
-          <div class="px-4 py-3 w-72">
-              <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-              <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-              <div class="flex items-center">
-                  <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
-                  <del>
-                      <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
-                  </del>
-                  <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                          fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd"
-                              d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                          <path
-                              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                      </svg></div>
-              </div>
-          </div>
-      </a>
-  </div>
-  <!--   🛑 Product card 2- Ends Here  -->
-
-  <!--   ✅ Product card 3 - Starts Here 👇 -->
-  <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-      <a href="#">
-          <img src="https://images.unsplash.com/photo-1651950537598-373e4358d320?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                  alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
-          <div class="px-4 py-3 w-72">
-              <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-              <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-              <div class="flex items-center">
-                  <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
-                  <del>
-                      <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
-                  </del>
-                  <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                          fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd"
-                              d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                          <path
-                              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                      </svg></div>
-              </div>
-          </div>
-      </a>
-  </div>
-  <!--   🛑 Product card 3 - Ends Here  -->
-
-  <!--   ✅ Product card 4 - Starts Here 👇 -->
-  <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-      <a href="#">
-          <img src="https://images.unsplash.com/photo-1651950540805-b7c71869e689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mjl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                  alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
-          <div class="px-4 py-3 w-72">
-              <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-              <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-              <div class="flex items-center">
-                  <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
-                  <del>
-                      <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
-                  </del>
-                  <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                          fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd"
-                              d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                          <path
-                              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                      </svg></div>
-              </div>
-          </div>
-      </a>
-  </div>
-  <!--   🛑 Product card 4 - Ends Here  -->
-
-  <!--   ✅ Product card 5 - Starts Here 👇 -->
-  <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-      <a href="#">
-          <img src="https://images.unsplash.com/photo-1649261191624-ca9f79ca3fc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                  alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
-          <div class="px-4 py-3 w-72">
-          
-              <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-              <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-              <div class="flex items-center">
-                  <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
-                  <del>
-                      <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
-                  </del>
-                  <div class="ml-auto">hey<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                          fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd"
-                              d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                          <path
-                              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                      </svg>
-                      <a href="LINK GOES HERE" target="_blank">Link text</a></div>
-              </div>
-          </div>
-      </a>
-  </div>
-  <!--   🛑 Product card 5 - Ends Here  -->
-
-  <!--   ✅ Product card 6 - Starts Here 👇 -->
-  <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-      <a href="#">
-          <img src="https://images.unsplash.com/photo-1649261191606-cb2496e97eee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                  alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
-          <div class="px-4 py-3 w-72">
-              <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-              <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-              <div class="flex items-center">
-                  <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
-                  <del>
-                      <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
-                  </del>
-                  <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                          fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd"
-                              d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                          <path
-                              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                      </svg></div>
-              </div>
-          </div>
-      </a>
-  </div>
-  <!--   🛑 Product card 6 - Ends Here  -->
-
-</section>
-
-<!-- 🛑 Grid Section - Ends Here -->
+  
+  pagination: {
+    el: '.swiper-pagination',
+  },
 
 
-<!-- credit -->
-<div class="text-center py-10 px-10">
-  <h2 class="font-bold text-2xl md:text-4xl mb-4">Thanks to <a href="https://unsplash.com/@nixcreative"
-          class="underline font-black">Tyler Nix</a> for those AMAZING product images!</h2>
-</div>
-<a href="LINK GOES HERE" target="_blank">Link text</a>
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
 
+  
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+}); 
+  </script> -->
 
+  
+  
+  
+  
 
-<p>Click the following link to go to another page:</p>
-<a href="https://www.example.com/page2.html">Go to Page 2</a>
+    <!-- Swiper -->
+  
+    <!-- <div #swiperRef="" class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  
+    <p class="append-buttons">
+      <button class="prepend-2-slides">Prepend 2 Slides</button>
+      <button class="prepend-slide">Prepend Slide</button>
+      <button class="append-slide">Append Slide</button>
+      <button class="append-2-slides">Append 2 Slides</button>
+    </p> -->
+  
+    <!-- Swiper JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   -->
+    <!-- Initialize Swiper -->
+    <!-- <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        centeredSlides: true,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+  
+      var appendNumber = 4;
+      var prependNumber = 1;
+      document
+        .querySelector(".prepend-2-slides")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          swiper.prependSlide([
+            '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+            '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+          ]);
+        });
+      document
+        .querySelector(".prepend-slide")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          swiper.prependSlide(
+            '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+          );
+        });
+      document
+        .querySelector(".append-slide")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          swiper.appendSlide(
+            '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+          );
+        });
+      document
+        .querySelector(".append-2-slides")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          swiper.appendSlide([
+            '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+            '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+          ]);
+        });
+    </script> -->
+  
+  
 </body>
 </html>
 
