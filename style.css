@@ -4,8 +4,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* 
+styles for the index.html */
+/* the hero-sectio  starts */
+
+.hero-section-paragraph{
+    @apply font-medium text-xl md:text-2xl  text-[#B2A59B]
+}
+.hero-section-heading{
+    @apply mt-[90%] md:mt-60 font-bold text-2xl text-[#B2A59B]  md:text-4xl
+}
+.hero-section-button{
+   @apply  text-white  hover:bg-[#5e544a] bg-[#7E6363] focus:ring-4 focus:outline-none font-medium rounded-lg text-lg px-4 py-2 text-center  mt-7
+}
+
+/* hero-sectio section ends
+product iconst section starts */
+.product-icons-section{
+    @apply  bg-scroll h-auto justify-center md:h-[20%] items-center grid grid-rows-5    md:grid-cols-5
+}
+.product-icons{
+   @apply mt-[35%]
+}
+/* product iconst section ends */
+/* .nav-section{
+    @apply bg-[#eeebe7] dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600
+}
+.nav-div{
+    @apply bg-[#eeebe7] dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600
+}
+.nav-link{
+    @apply flex items-center space-x-3 rtl:space-x-reverse
+}
+.nav-span{
+    @apply self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-[#3E3232] 
+}
+.nav-account-div{
+    @apply self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-[#3E3232] 
+} */
+.nav-items{
+    @apply md:block  hover:text-[#B0926A] text-[#3E3232] rounded
+}
+.nav-item-section{
+    @apply block py-2 px-3 hover:text-[#B0926A] text-[#3E3232] rounded
+}
+.nav-list{
+    @apply flex flex-col p-4 md:p-0 mt-4 font-medium border  rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-[#eeebe7] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700
+}
+.nav-list-item{
+    @apply w-full  text-center ml-20 md:w-auto md:text-left
+}
+.nav-item-links{
+    @apply block  py-2 px-3 hover:text-[#B0926A] text-[#3E3232] rounded
+}
 .card{
-    @apply  bg-white rounded-xl  h-[75%] md:h-[80%] overflow-hidden shadow-md mt-12 relative  duration-500 hover:scale-105 hover:shadow-xl;
+    @apply  bg-white rounded-xl mt-12 h-[65%] md:h-[80%] overflow-hidden shadow-md  relative  duration-500 hover:scale-105 hover:shadow-xl;
 }
 .badge{
     @apply bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2
@@ -25,9 +78,7 @@
 .links-hover{
     @apply hover:text-gray-700
 }
-.burger{
-    @apply px-4 cursor-pointer md:hidden
-}
+
 .icon-size{
     @apply w-6 h-6 
 }
@@ -44,10 +95,10 @@
     @apply w-5 h-6 ml-2;
   }
   .button{
-    @apply text-white  bg-[#A9907E] hover:bg-[#5e544a] focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-4 py-2 text-center
+    @apply text-white  bg-[#503C3C] hover:bg-[#5e544a] focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-4 py-2 text-center
   }
   .info-button{
-    @apply  button h-[9%] ml-[27%] mt-[-17.5%] text-center md:h-[7%] md:mt-[5%] md:ml-[40%] text-white  bg-[#A9907E] hover:bg-[#5e544a] focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-4 py-2 flex
+    @apply  button h-[9%] ml-[27%] mt-[-9.5%] text-center md:h-[7%] md:mt-[5%] md:ml-[40%] text-white  bg-[#A9907E] hover:bg-[#5e544a] focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-4 py-2 flex
   }
   .links{
     @apply px-4  flex justify-end border-r-4 border-white
@@ -114,3 +165,14 @@
 .custom-color{
      @apply bg-[#A9907E]
 }
+.footer-section{
+    @apply relative mt-0 md:mt-0 md:w-full md:h-[40%] 
+}
+.mobile-footer{
+    @apply absolute inset-0 bg-fixed  md:w-full   opacity-40 bg-cover bg-about-background-device-mobile   h-full md:h-[90%] md:bg-about-background-device-md 
+}
+.desktop-footer-sec{
+    @apply relative z-10 text-slate-950  md:text-gray-900
+}
+
+/* styles for espersso ,karamel and lattee.html */
